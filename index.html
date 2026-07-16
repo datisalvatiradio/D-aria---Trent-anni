@@ -163,11 +163,11 @@
         <section class="audio-container">
             <h3>Ascolta l'anteprima</h3>
             <audio controls>
-                <source src="canzone.mp3" type="audio/mpeg">
+                <source src="audio.mp3" type="audio/mpeg">
                 Il tuo browser non supporta l'elemento audio.
             </audio>
             <br>
-            <a href="canzone.mp3" download="Nome_Canzone.mp3" class="download-btn">
+            <a href="audio.mp3" download="Nome_Canzone.mp3" class="download-btn">
                 Scarica la Canzone (MP3)
             </a>
         </section>
@@ -191,7 +191,7 @@
             })
             .catch(error => {
                 console.error(error);
-                document.getElementById('testo-descrizione').textContent = "Errore nel caricamento della descrizione. Assicurati che il file 'descrizione.txt' sia presente nella cartella principale.";
+                document.getElementById('testo-descrizione').textContent = "Errore nel caricamento della descrizione. Assicurati che il file 'descrizione.txt' sei presente nella cartella principale.";
             });
     </script>
 
